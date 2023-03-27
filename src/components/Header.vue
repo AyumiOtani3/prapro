@@ -9,6 +9,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <marquee>MOVIEFLIX  MOVIEFLIX  MOVIEFLIX  MOVIEFLIX</marquee>
     </header>
 </template>
 
@@ -31,23 +32,37 @@ header {
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: red;
+    animation: shake 0.5s infinite;
+}
+@keyframes logo {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(0.5deg); }
+    50% { transform: translateX(0) rotate(0deg); }
+    75% { transform: translateX(5px) rotate(-0.5deg); }
+    100% { transform: translateX(0); }
 }
 
 nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 nav a {
-  color: #333;
-  text-decoration: none;
+    color: #333;
+    text-decoration: none;
+}
+marquee {
+    color: red;
+    background-color: #333;
+    padding: 0.5rem;
 }
 </style>
