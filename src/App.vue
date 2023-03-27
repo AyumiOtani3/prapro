@@ -44,7 +44,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: pink;
+  color: #fff;
   margin-top: 60px;
+  background-color: #333;
 }
 </style>

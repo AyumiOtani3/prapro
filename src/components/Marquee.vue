@@ -12,7 +12,7 @@ export default {
   name: 'Marquee',
   data() {
     return {
-      marqueeText: 'Jurassic Park'
+      marqueeText: 'MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX MOVIEFLIX'
     }
   }
 }
@@ -37,7 +37,7 @@ export default {
   display: inline-block;
   white-space: nowrap;
   font-size: 20px;
-  color: white;
+  color: red;
 }
 
 @keyframes marquee {

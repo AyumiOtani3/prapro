@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <Marquee />
     <h1>{{ msg }}</h1>
     <p>
       映画情報はこちら
@@ -21,8 +22,13 @@
 </template>
 
 <script>
+import Marquee from './Marquee.vue';
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Marquee
+  },
   props: {
     msg: String
   }
